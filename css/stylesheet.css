@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+div{
+    display: grid;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    color: lawngreen;
+    background-position: center;
+    background-size: cover;
+    background: #3f51b5d1;
+    font-family: serif;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+}
+
+#main{
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+h1{
+    margin: 0px;
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Garamond, serif;
+    margin: 10px;
+}
+
+/*.particlesContainer {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+
+/*}*/
+
+/*.particle {*/
+/*    display: inline-flex;*/
+/*    position: absolute;*/
+/*    height: 5rem ;*/
+/*    width: 5rem;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 10%;*/
+/*    !*border: 2px solid;*!*/
+/*    margin: auto;*/
+/*    background-image: url("../images/heart.png");*/
+/*    background-size: 100%;*/
+/*    background-repeat: no-repeat;*/
+/*    border-right: 500px;*/
+/*    !*background-color: white;*!*/
+
+/*}*/
+
+/*.particle.like {*/
+/*    background-position: 8px 8px;*/
+/*}*/
+
+/*.particle.love {*/
+/*    background-position: -75px 8px;*/
+/*}*/
+
+/*.particle.cool {*/
+/*    background-position: -158px 8px;*/
+/*}*/
+
+/*.particle.wow {*/
+/*    background-position: -241px 8px;*/
+/*}*/
+
+/*.particle.sad {*/
+/*    background-position: -158px 8px;*/
+/*}*/
+
+/*.particle.angry {*/
+/*    background-position: -158px 8px;*/
+/*}*/
+
+
