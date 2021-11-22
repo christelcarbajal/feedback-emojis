@@ -1,7 +1,7 @@
 const heartButton = document.querySelector("#heart");
 const emoji = document.querySelector("#emoji");
 heartButton.addEventListener("click", () => lotsOfEmoji());
-emojiArray = ["❤️‍🔥️", "🌟", "💯", "💥"];
+emojiArray = ["❤️‍🔥", "🌟", "💯", "💥", "👌"];
 
 function lotsOfEmoji() {
   for (let i = 0; i < 20; i++) {
@@ -12,7 +12,7 @@ function lotsOfEmoji() {
 function createEmoji() {
   const div = document.createElement("div");
   document.body.appendChild(div);
-  div.innerHTML = emojiArray[Math.floor(Math.random() * 3)];
+  div.innerHTML = emojiArray[Math.floor(Math.random() * 5)];
   div.style.width = Math.random() * 600 + "px";
   div.classList.add("emoji");
   div.style.animationDelay = `${Math.random()}s`;
